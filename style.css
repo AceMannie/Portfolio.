@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1c1a19;
+  width: 375px;
+  height: 590px;
+  top: 92px;
+}
+
+.navlogo {
+  display: flex;
+  justify-content: space-between;
+  background-color: #3c3a39;
+  padding: 20px;
+}
+
+.header_info_section {
+  height: 519px;
+  background-image: url("images/Group.png");
+  background-position-x: right;
+  background-position-y: bottom;
+  background-repeat: no-repeat;
+  align-items: flex-start;
+}
+
+.Navbar {
+  padding: 7% 10% 0% 0%;
+  width: 100%;
+}
+
+.icon {
+  width: 90px;
+  height: 28px;
+  padding: 5% 0% 0% 0%;
+  font-weight: 600;
+  color: #ffff;
+}
+
+#hamburger {
+  color: #ffff;
+}
+
+h1 {
+  margin: 150px 10px 10px 20px;
+}
+
+h2 {
+  margin: 5px 10px 10px 20px;
+}
+
+p {
+  margin: 2px 30px 30px 20px;
+}
+
+.greeting-header {
+  color: #ff6b00;
+  font-family: "Crete Round", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: 0.37px;
+}
+
+.SupportingText {
+  color: #fff5e1;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+}
+
+.Description {
+  color: #ffff;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.social-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex: none;
+  list-style: none;
+  width: 10.636rem;
+  gap: 8px;
+  order: 3;
+  align-items: center;
+  margin: 0% 0% 0% 7%;
+}
+
+/* .twitter:hover,
+.linkedin:hover,
+.github:hover,
+.angel:hover {
+  color: #505f79;
+  opacity: 0.5;
+} */
