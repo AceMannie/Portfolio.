@@ -18,6 +18,11 @@ body {
   padding: 20px;
 }
 
+.navlogo a {
+  color: #fff;
+  text-decoration: none;
+}
+
 .header_info_section {
   height: 519px;
   background-image: url("images/Group.png");
