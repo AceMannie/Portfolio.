@@ -104,562 +104,340 @@ p {
   margin: 0% 0% 0% 7%;
 }
 
-.works-section {
-  height: auto;
-  background-color: #e5e5e5;
-  padding-top: 150px;
-  padding-bottom: 120px;
+/* container for all works */
+
+.works {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 250px repeat(3,auto);
+  justify-content: center;
+  width: 100%;
+  padding-left: 24px;
+  padding-right: 24px;
+  background: #fff;
 }
 
-.Title {
-  font-family: "Crete Round", serif;
+/* container for Recent works title */
+
+.title {
+  display: flex;
+  flex-direction: column;
+  width: 327px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  align-items: center;
+}
+
+/* Heading for Recent Works */
+
+.recentworks {
+  color: #1c1a19;
+  font-family: 'Crete Round', serif;
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
-  line-height: 52px;
-  display: flex;
-  align-items: center;
-  margin: 1px 1px 10px 1px;
-}
-
-.Vector {
-  border: 1px;
-  align-items: center;
-  margin: 5% 0% 2% 5%;
-  order: 1;
-}
-
-.imgPlaceholder {
+  text-align: center;
+  padding-bottom: 20px;
   width: 327px;
-  height: 237px;
-  left: 24px;
-  margin: 80px 50% 10% 5%;
+  height: 83px;
 }
 
-.TitlePost {
+.works1 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: -5% 0% 0% 0%;
+}
+
+.work1Title {
   width: 327px;
   height: 36px;
-  font-family: "Crete Round", serif;
+  color: #091e42;
+  font-family: 'Crete Round', serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
   line-height: 44px;
-  align-items: center;
-  color: #091e42;
   display: flex;
+  align-items: center;
+  padding-top: 24px;
 }
 
-.Titlepost {
-  padding: 12px;
-  margin: 24px 1px 120px -10px;
-}
-
-.TextSupportingTest {
+.work1Description {
   width: 327px;
   height: 147px;
-  size: 16px;
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
   color: #091e42;
-  margin: -120px 1px 1px 1px;
-}
-
-.tag {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 1px;
-  gap: 12px;
-  margin: 20px 1px 1px 15px;
-}
-
-.Button {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
-  font-weight: 700;
-  font-size: 17px;
+  font-weight: 400;
+  font-size: 16px;
   line-height: 24px;
+  padding-top: 24px;
+  text-align: left;
+  margin: -2% 5% 0% -1%;
+}
+
+.work1Languages {
+  width: 314px;
+  height: 40px;
   display: flex;
-  background: #ff6b00;
   align-items: center;
-  letter-spacing: 0.03em;
   flex-direction: row;
-  padding: 12px;
-  gap: 10px;
+  top: 207px;
+  gap: 12px;
+  list-style: none;
+  margin: 10% 0% 0% -1%;
+}
+
+.work1Button{
+  background-color: #fff;
+  flex-direction: row;
+  padding: 10px 12px;
+  align-items: center;
+  box-sizing: border-box;
+  height: 40px;
+  border: 2px solid #8993a4;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 400;
+  font-size: 15px;
+  margin: 10% 0% 0% 2%;
+}
+
+.Works1Link {
+  background-color: #ff6b00;
+  border: none;
+  color: #fff;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 5px;
+  cursor: pointer;
   width: 124px;
-  height: 48px;
-  flex: none;
-  order: 3;
-  margin: 5% 1% 1% 4%;
+  margin: 6% 0% 0% -1%;
 }
 
-.MaskGroup {
-  background:
-    linear-gradient(
-      180.45deg,
-      rgba(38, 38, 38, 0) 0.75%,
-      rgba(38, 38, 38, 0.9) 61.94%
-    ),
-    url(image_processing20200427-30692-7af91d.png);
-  background-color: #e5e5e5;
-  margin: 10% 5% 9% 6%;
-  width: 327px;
-  padding-right: 10px;
+.work1Link:active {
+  background-color: #e05304;
 }
 
-.TextTitlePost {
+.work1link:hover {
+  background-color: #fff5e1;
+  border: #f55800;
+  color: #f55800;
+}
+
+.work1Link:disabled {
+  background-color: #f4f1f0;
+  border: none;
+}
+
+.otherprofessions {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: repeat(7,370px);
+  justify-items: center;
+  width: 100%;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.work2 {
+  display: flex;
+  flex-direction: column;
+  background-image: url(images/Img\ Placeholder\ \(1\).png);
+  background-repeat: no-repeat;
+  margin-top: 24px;
+  height: 372px;
+  justify-content: center;
+  margin: 0% 25% 0% 30%;
+}
+
+.work2title {
   width: 295px;
   height: 81px;
-  top: 8px;
-  left: 16px;
-  font-family: "Crete Round", serif;
+  color: #fff;
+  font-family: 'Crete Round', serif;
   font-style: normal;
-  font-weight: 400;
   font-size: 32px;
   line-height: 44px;
-  color: #e5e5e5;
-  margin: -105% 0% 0% 4%;
+  padding-top: 24px;
+  margin: 0% 10% 0% 10%;
 }
 
-.textsupportingtext {
-  width: 295px;
+.work2Description {
+  width: 301px;
   height: 99px;
-  font-family: "Inter", sans-serif;
+  color: #ffffff;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #fff;
-  margin: 2% 0% 12% 5%;
+  padding-top:  10px;
+  padding-left: 13px;
+  margin-top: 24px;
 }
 
-.tag2 {
+.work2Languages {
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 10px 12px;
-  width: 67px;
-  height: 40px;
-  gap: 12px;
-  margin: 10% 0% 12% 8%;
+  list-style: none;
 }
 
-.Action {
+.work2Button {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  flex-direction: row;
+  display: flex;
+  background: rgba(255, 255, 255, 0.24);
+  border: none;
+  color: #fff;
+  padding: 10px 12px;
+  align-items: center;
+  text-decoration: none;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  margin-right: 12px;
+  margin: 32px 12px 12px 12px;
+}
+
+.work2Link {
+  background: #ff6b00;
+  color: #ffffff;
+  font-weight: 700;
   width: 327px;
   height: 48px;
-  margin: 14% 24% 10% 6%;
+  border: none;
+  padding: 12px;
+  text-align: center;
+  cursor: pointer;
+  }
+
+.work2Link:active {
+  background-color: #e05304;
 }
 
-.Testseeproject {
-  width: 100px;
-  height: 24px;
-  margin: -20% 8% 0% 35%;
+.work2Link:hover {
+  border: #f55800;
 }
 
-.MaskGroup2 {
-  background:
-    linear-gradient(
-      180.45deg,
-      rgba(38, 38, 38, 0) 0.75%,
-      rgba(38, 38, 38, 0.9) 61.94%
-    ),
-    url(image_processing20200427-30692-7af91d.png);
-  background-color: #e5e5e5;
-  margin: 3% 5% 9% 6%;
-  width: 327px;
+.work2Link:disabled {
+  background-color: #f4f1f0;
+  border: none;
+  color: #5b5957;
 }
 
-.TextTitlePost1 {
-  width: 295px;
-  height: 81px;
-  top: 8px;
-  left: 16px;
-  font-family: "Crete Round", serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 32px;
-  line-height: 44px;
-  color: #e5e5e5;
-  margin: -105% 0% 0% 4%;
-}
-
-.textsupportingtext1 {
-  width: 295px;
-  height: 99px;
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  color: #fff;
-  margin: 2% 0% 12% 5%;
-}
-
-.tag3 {
+.aboutMe {
+  /* width: 375%; */
+  /* height: 1805px; */
+  background-color: #1c1a19;
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 10px 12px;
-  width: 67px;
-  height: 40px;
-  gap: 12px;
-  margin: -7% 0% 12% 8%;
+  flex-direction: column;
+  padding: 120px 24px;
+  position: relative;
+  /* margin: 100px auto 0; */
 }
 
-.Action1 {
+.aboutmeTitle {
   width: 327px;
-  height: 48px;
-  margin: 8% 24% 11% 6%;
-}
-
-.Testseeproject1 {
-  width: 100px;
-  height: 24px;
-  margin: -20% 8% 0% 35%;
-}
-
-.MaskGroup3 {
-  background:
-    linear-gradient(
-      180.45deg,
-      rgba(38, 38, 38, 0) 0.75%,
-      rgba(38, 38, 38, 0.9) 61.94%
-    ),
-    url(image_processing20200427-30692-7af91d.png);
-  background-color: #e5e5e5;
-  margin: 2% 0% 20% 6%;
-  width: 327px;
-}
-
-.TextTitlePost2 {
-  width: 295px;
-  height: 81px;
-  top: 8px;
-  left: 16px;
-  font-family: "Crete Round", serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 32px;
-  line-height: 44px;
-  color: #e5e5e5;
-  margin: -105% 0% 0% 4%;
-}
-
-.textsupportingtext2 {
-  width: 295px;
-  height: 99px;
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  color: #fff;
-  margin: 2% 0% 12% 5%;
-}
-
-.tag4 {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 10px 12px;
-  width: 67px;
-  height: 40px;
-  gap: 12px;
-  margin: -7% 0% 12% 8%;
-}
-
-.Action2 {
-  width: 327px;
-  height: 48px;
-  margin: 14% 24% 10% 6%;
-}
-
-.Testseeproject2 {
-  width: 100px;
-  height: 24px;
-  margin: -20% 8% 0% 35%;
-}
-
-.MaskGroup4 {
-  background:
-    linear-gradient(
-      180.45deg,
-      rgba(38, 38, 38, 0) 0.75%,
-      rgba(38, 38, 38, 0.9) 61.94%
-    ),
-    url(image_processing20200427-30692-7af91d.png);
-  background-color: #e5e5e5;
-  margin: 3% 0% 20% 6%;
-  width: 327px;
-}
-
-.TextTitlePost3 {
-  width: 295px;
-  height: 81px;
-  top: 8px;
-  left: 16px;
-  font-family: "Crete Round", serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 32px;
-  line-height: 44px;
-  color: #e5e5e5;
-  margin: -105% 0% 0% 4%;
-}
-
-.textsupportingtext3 {
-  width: 295px;
-  height: 99px;
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  color: #fff;
-  margin: 2% 0% 12% 5%;
-}
-
-.tag5 {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 10px 12px;
-  width: 67px;
-  height: 40px;
-  gap: 12px;
-  margin: -7% 0% 12% 8%;
-}
-
-.Action3 {
-  width: 327px;
-  height: 48px;
-  margin: 14% 24% 10% 6%;
-}
-
-.TestSeeproject3 {
-  width: 100px;
-  height: 24px;
-  margin: -20% 8% 0% 35%;
-}
-
-.MaskGroup5 {
-  background:
-    linear-gradient(
-      180.45deg,
-      rgba(38, 38, 38, 0) 0.75%,
-      rgba(38, 38, 38, 0.9) 61.94%
-    ),
-    url(image_processing20200427-30692-7af91d.png);
-  background-color: #e5e5e5;
-  margin: 3% 0% 20% 6%;
-  width: 327px;
-}
-
-.TextTitlePost4 {
-  width: 295px;
-  height: 81px;
-  top: 8px;
-  left: 16px;
-  font-family: "Crete Round", serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 32px;
-  line-height: 44px;
-  color: #e5e5e5;
-  margin: -105% 0% 0% 4%;
-}
-
-.textsupportingtext4 {
-  width: 295px;
-  height: 99px;
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  color: #fff;
-  margin: 2% 0% 12% 5%;
-}
-
-.tag6 {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 10px 12px;
-  width: 67px;
-  height: 40px;
-  gap: 12px;
-  margin: -7% 0% 12% 8%;
-}
-
-.Action4 {
-  width: 327px;
-  height: 48px;
-  margin: 14% 24% 10% 6%;
-}
-
-.Testseeproject3 {
-  width: 100px;
-  height: 24px;
-  margin: -20% 8% 0% 35%;
-}
-
-.MaskGroup6 {
-  background:
-    linear-gradient(
-      180.45deg,
-      rgba(38, 38, 38, 0) 0.75%,
-      rgba(38, 38, 38, 0.9) 61.94%
-    ),
-    url(image_processing20200427-30692-7af91d.png);
-  background-color: #e5e5e5;
-  margin: 3% 0% 20% 6%;
-  width: 327px;
-}
-
-.TextTitlepost5 {
-  width: 295px;
-  height: 81px;
-  top: 8px;
-  left: 16px;
-  font-family: "Crete Round", serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 32px;
-  line-height: 44px;
-  color: #e5e5e5;
-  margin: -105% 0% 0% 4%;
-}
-
-.textsupportingtext5 {
-  width: 295px;
-  height: 99px;
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  color: #fff;
-  margin: 2% 0% 12% 5%;
-}
-
-.tag7 {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 10px 12px;
-  width: 67px;
-  height: 40px;
-  gap: 12px;
-  margin: -7% 0% 12% 8%;
-}
-
-.Action5 {
-  width: 327px;
-  height: 48px;
-  margin: 14% 24% 10% 6%;
-}
-
-.Testseeproject4 {
-  width: 100px;
-  height: 24px;
-  margin: -20% 8% 0% 35%;
-}
-
-.About-me-section {
-  width: 375px;
-  height: 1801px;
-  left: 0;
-  top: 4137px;
-  background: #1c1a19;
-}
-
-.Primarytext {
   height: 79px;
-  top: 120px;
-  font-family: "Crete Round", serif;
+  color: #ff6b00;
+  font-family: 'Crete Round';
   font-style: normal;
   font-weight: 400;
   font-size: 72px;
   line-height: 88px;
   letter-spacing: 0.37px;
-  color: #ff6b00;
-  margin: 40% 0% 0% 0%;
-  flex: none;
 }
 
-.TextDescription {
-  width: 327px;
-  height: 148px;
-  font-family: "Inter", sans-serif;
+.aboutMeDescription {
+  /* width: 327px;
+  height: 148px; */
+  color: #fff;
+  font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #f4f5f7;
-  margin: 8% 1% 1% 1%;
+  padding-top: 12px;
 }
 
-.Enable {
-  flex-direction: row;
-  align-items: center;
-  padding: 12px;
-  gap: 10px;
+.resumeContainer {
+  padding-top: 36px;
+}
+
+.resumebutton {
   width: 156px;
   height: 48px;
-  order: 2;
-  margin: 10% 10% 0% 2%;
+  background-color: #ff6b00;
+  border: none;
+  color: #fff;
+  padding: 12px;
+  text-align: center;
+  display: inline-block;
+  font-weight: 400;
+  font-size: 15px;
+  cursor: pointer;
+  margin: -7% 6% 0% 6%;
 }
 
-.Grouplogo {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  left: 234px;
-  top: 230px;
-  margin: -10% 1% 1% 1%;
+.resumebutton:active {
+  background-color: #e05304;
 }
 
-.Vectorline {
-  justify-content: flex-end;
-  height: 0;
-  left: 0;
+.resumebutton:hover {
+  background-color: #fff5e1;
+  border: #f55800;
+  color: #f55800;
+}
+
+.resumebutton:disabled {
+  background-color: #f4f1f0;
+  border:none
+}
+
+.background-img2 {
+  background: url('images/Group\ \(1\).png');
+  width: 160px;
+  height: 260px;
+  height: 260px;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 370px;
   right: 0;
-  margin: 3% 0% 30% 8%;
+}
+
+.line2 {
+  padding-top: 200px;
 }
 
 .Language {
   font-weight: 700;
-  font-size: 32px;
-  line-height: 44px;
-  display: flex;
-  align-items: center;
-  color: #fff;
-  margin: 15% 0% 0% 0%;
-  justify-content: center;
+    font-size: 32px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    margin-top: 10%;
+    justify-content: center;
 }
 
-.Rectangle55 {
+.Rectangle {
   width: 18px;
   height: 18px;
-  margin: -7% 3% 0% 15%;
+  margin: -9% 5% 0% 20%;
 }
 
-.Javascript {
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 43px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+.list1 {
+  list-style: none;
   color: #fff;
-  margin: 8% 0% 0% 0%;
+  justify-content: center;
+  margin: 5% 0% 2% 0%;
 }
 
 .Ruby {
@@ -668,188 +446,18 @@ p {
   font-weight: 400;
   font-size: 22px;
   line-height: 43px;
-  justify-content: center;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  color: #fff;
+  text-align: center; 
 }
 
-.HTML {
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 22px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  color: #fff;
-}
-
-.CSS {
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 43px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  color: #fff;
-}
-
-.Frameworks {
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 44px;
-  justify-content: center;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  color: #fff;
+.Rectangle55 {
+  width: 18px;
+  height: 18px;
+  margin: -10% 0% 0% 10%;
 }
 
 .Rectangle56 {
   width: 18px;
   height: 18px;
-  margin: -16% 13% 0% 12%;
+  margin: -9% 25% 20% 30%;
 }
 
-.React {
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 43px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  color: #fff;
-  margin: 10% 0% 5% 5%;
-}
-
-.RubyonRails {
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 43px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  color: #fff;
-}
-
-.RSpec {
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 43px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  color: #fff;
-}
-
-.Capybara {
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 43px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  color: #fff;
-}
-
-.Skills {
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 44px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #fff;
-}
-
-.Rectangle57 {
-  width: 18px;
-  height: 18px;
-  margin: -16% 13% 10% 25%;
-}
-
-.Database {
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 43px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #fff;
-}
-
-.Versioncontrol {
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 43px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-  color: #fff;
-}
-
-.cli {
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 43px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  color: #fff;
-}
-
-.apidesign {
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 43px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  color: #fff;
-}
-
-.webdevelopment {
-  font-family: "Inter", sans-serif;
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 43px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  color: #fff;
-  margin: 8% 1% 1% 1%;
-}
