@@ -7,7 +7,7 @@
 body {
   background-color: #1c1a19;
   width: 375px;
-  height: 590px;
+  height: 100px;
   top: 92px;
 }
 
@@ -115,6 +115,19 @@ p {
   padding-left: 24px;
   padding-right: 24px;
   background: #fff;
+  /* margin-bottom: 50px; */
+}
+
+/* .Aboutmesession {
+  margin-top: 80px;
+} */
+
+.Worksection {
+  height: 500vh;
+}
+
+.otherprofessions {
+  margin-bottom: 24px;
 }
 
 /* container for Recent works title */
@@ -126,12 +139,13 @@ p {
   padding-top: 80px;
   padding-bottom: 80px;
   align-items: center;
+  margin-top: 10%;
 }
 
 /* Heading for Recent Works */
 
 .recentworks {
-  color: #1c1a19;
+  /* color: #1c1a19; */
   font-family: 'Crete Round', serif;
   font-style: normal;
   font-weight: 400;
@@ -237,7 +251,7 @@ p {
 .otherprofessions {
   display: grid;
   grid-template-columns: 100%;
-  grid-template-rows: repeat(7,370px);
+  grid-template-rows: repeat(6,370px);
   justify-items: center;
   width: 100%;
   padding-left: 24px;
