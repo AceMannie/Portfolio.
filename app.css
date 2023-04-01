@@ -109,25 +109,13 @@ p {
 .works {
   display: grid;
   grid-template-columns: 100%;
-  grid-template-rows: 250px repeat(3,auto);
+  grid-template-rows: 250px repeat(3, auto);
   justify-content: center;
   width: 100%;
+  height: 430vh;
   padding-left: 24px;
   padding-right: 24px;
   background: #fff;
-  /* margin-bottom: 50px; */
-}
-
-/* .Aboutmesession {
-  margin-top: 80px;
-} */
-
-.Worksection {
-  height: 500vh;
-}
-
-.otherprofessions {
-  margin-bottom: 24px;
 }
 
 /* container for Recent works title */
@@ -145,7 +133,6 @@ p {
 /* Heading for Recent Works */
 
 .recentworks {
-  /* color: #1c1a19; */
   font-family: 'Crete Round', serif;
   font-style: normal;
   font-weight: 400;
@@ -203,7 +190,7 @@ p {
   margin: 10% 0% 0% -1%;
 }
 
-.work1Button{
+.work1Button {
   background-color: #fff;
   flex-direction: row;
   padding: 10px 12px;
@@ -227,10 +214,9 @@ p {
   text-decoration: none;
   display: inline-block;
   font-size: 15px;
-  margin: 4px 5px;
   cursor: pointer;
   width: 124px;
-  margin: 6% 0% 0% -1%;
+  margin: 6% 1% 1% -1%;
 }
 
 .work1Link:active {
@@ -251,7 +237,7 @@ p {
 .otherprofessions {
   display: grid;
   grid-template-columns: 100%;
-  grid-template-rows: repeat(6,370px);
+  grid-template-rows: repeat(6, 370px);
   justify-items: center;
   width: 100%;
   padding-left: 24px;
@@ -261,12 +247,11 @@ p {
 .work2 {
   display: flex;
   flex-direction: column;
-  background-image: url(images/Img\ Placeholder\ \(1\).png);
+  background-image: url(./images/work.png);
   background-repeat: no-repeat;
-  margin-top: 24px;
   height: 372px;
   justify-content: center;
-  margin: 0% 25% 0% 30%;
+  margin: 5% 25% 5% 30%;
 }
 
 .work2title {
@@ -278,19 +263,19 @@ p {
   font-size: 32px;
   line-height: 44px;
   padding-top: 24px;
-  margin: 0% 10% 0% 10%;
+  margin: 1% 10% 1% 10%;
 }
 
 .work2Description {
   width: 301px;
   height: 99px;
-  color: #ffffff;
+  color: #fff;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  padding-top:  10px;
+  padding-top: 10px;
   padding-left: 13px;
   margin-top: 24px;
 }
@@ -311,18 +296,15 @@ p {
   padding: 10px 12px;
   align-items: center;
   text-decoration: none;
-  display: inline-block;
-  text-decoration: none;
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
-  margin-right: 12px;
   margin: 32px 12px 12px 12px;
 }
 
 .work2Link {
   background: #ff6b00;
-  color: #ffffff;
+  color: #fff;
   font-weight: 700;
   width: 327px;
   height: 48px;
@@ -330,7 +312,7 @@ p {
   padding: 12px;
   text-align: center;
   cursor: pointer;
-  }
+}
 
 .work2Link:active {
   background-color: #e05304;
@@ -347,21 +329,18 @@ p {
 }
 
 .aboutMe {
-  /* width: 375%; */
-  /* height: 1805px; */
   background-color: #1c1a19;
   display: flex;
   flex-direction: column;
-  padding: 120px 24px;
+  padding: 120px  24px;
   position: relative;
-  /* margin: 100px auto 0; */
 }
 
 .aboutmeTitle {
   width: 327px;
   height: 79px;
   color: #ff6b00;
-  font-family: 'Crete Round';
+  font-family: 'Crete Round', serif;
   font-style: normal;
   font-weight: 400;
   font-size: 72px;
@@ -370,10 +349,8 @@ p {
 }
 
 .aboutMeDescription {
-  /* width: 327px;
-  height: 148px; */
   color: #fff;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -412,13 +389,12 @@ p {
 
 .resumebutton:disabled {
   background-color: #f4f1f0;
-  border:none
+  border: none;
 }
 
 .background-img2 {
   background: url('images/Group\ \(1\).png');
   width: 160px;
-  height: 260px;
   height: 260px;
   background-repeat: no-repeat;
   position: absolute;
@@ -432,13 +408,13 @@ p {
 
 .Language {
   font-weight: 700;
-    font-size: 32px;
-    line-height: 44px;
-    display: flex;
-    align-items: center;
-    color: #fff;
-    margin-top: 10%;
-    justify-content: center;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  margin-top: 10%;
+  justify-content: center;
 }
 
 .Rectangle {
@@ -460,7 +436,7 @@ p {
   font-weight: 400;
   font-size: 22px;
   line-height: 43px;
-  text-align: center; 
+  text-align: center;
 }
 
 .Rectangle55 {
@@ -474,4 +450,3 @@ p {
   height: 18px;
   margin: -9% 25% 20% 30%;
 }
-
