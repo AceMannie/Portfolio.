@@ -205,22 +205,44 @@ p {
   margin: 10% 0% 0% 2%;
 }
 
+.work1Button:hover {
+  background-color: #fff5e1;
+  color: #f55800;
+}
+
+.work1Button:enabled {
+  background-color: #f55800;
+  color: #fff;
+}
+
+.work1Button:disabled {
+  background-color: #f4f1f0;
+  color: #5b5957;
+}
+
+.work1Button:active {
+  background-color: #e05304;
+  color: #f4f1f0;
+}
+
 .Works1Link {
   background-color: #ff6b00;
   border: none;
   color: #fff;
-  padding: 15px 32px;
+  padding: 15px 1px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 15px;
   cursor: pointer;
-  width: 124px;
-  margin: 6% 1% 1% -1%;
+  width: 120px;
+  margin: 12px;
+  margin-left: 0;
 }
 
 .work1Link:active {
-  background-color: #e05304;
+  background-color: #f55800;
+  color: #fff;
 }
 
 .work1link:hover {
@@ -232,6 +254,7 @@ p {
 .work1Link:disabled {
   background-color: #f4f1f0;
   border: none;
+  color: #5b5957;
 }
 
 .otherprofessions {
@@ -303,7 +326,7 @@ p {
 }
 
 .work2Link {
-  background: #ff6b00;
+  background-color: #ff6b00;
   color: #fff;
   font-weight: 700;
   width: 327px;
@@ -314,15 +337,18 @@ p {
   cursor: pointer;
 }
 
-.work2Link:active {
-  background-color: #e05304;
+.work2Button:active {
+  background-color: #f55800;
+  color: white;
 }
 
-.work2Link:hover {
+.work2Button:hover {
+  background-color: #fff5e1;
+  color: #f55800;
   border: #f55800;
 }
 
-.work2Link:disabled {
+.work2Button:disabled {
   background-color: #f4f1f0;
   border: none;
   color: #5b5957;
@@ -355,7 +381,7 @@ p {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  padding-top: 12px;
+  padding-top: 30px;
 }
 
 .resumeContainer {
@@ -407,27 +433,99 @@ p {
 }
 
 .Language {
+  width: 164px;
+  height: 24px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
   display: flex;
   align-items: center;
   color: #fff;
-  margin-top: 10%;
+  margin: 6% 2% 2% 20%;
+}
+
+.languages {
+  list-style: none;
+  margin-bottom: 5px;
+}
+
+.Language img {
+  width: 18px;
+  height: 18px;
+  margin-right: 24px;
+  display: block;
+}
+
+.Framesworks {
+  width: 227px;
+  height: 24px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  flex: none;
+  margin: 10% 2% 10% 20%;
+}
+
+.Frameworkslist {
+  list-style: none;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 10px;
+}
+
+.Frameswork-icon {
+  margin-right: 20px;
+  margin-left: -20px;
+}
+
+.Skills {
+  /* width: 115px; */
+  height: 24px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  flex: none;
+  margin: 15% 2% 10% 2%;
+  text-align: center;
   justify-content: center;
 }
 
-.Rectangle {
+.Skills-icon {
+  margin-right: 20px;
+  margin-left: -50px;
+}
+
+.Workskills {
+  list-style: none;
+  margin-bottom: 20px;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.Skills img {
   width: 18px;
   height: 18px;
-  margin: -9% 5% 0% 20%;
+  transform: rotate(-45deg);
 }
 
 .list1 {
   list-style: none;
   color: #fff;
   justify-content: center;
-  margin: 5% 0% 2% 0%;
+  margin: 5% 1% 2% 1%;
 }
 
 .Ruby {
@@ -437,6 +535,7 @@ p {
   font-size: 22px;
   line-height: 43px;
   text-align: center;
+  margin-bottom: 10px;
 }
 
 .Rectangle55 {
@@ -445,8 +544,19 @@ p {
   margin: -10% 0% 0% 10%;
 }
 
-.Rectangle56 {
-  width: 18px;
-  height: 18px;
-  margin: -9% 25% 20% 30%;
+.work2Link:active {
+  background-color: #f55800;
+  color: #fff;
+}
+
+.work2link:hover {
+  background-color: #fff5e1;
+  border: #f55800;
+  color: #f55800;
+}
+
+.work2Link:disabled {
+  background-color: #f4f1f0;
+  border: none;
+  color: #5b5957;
 }
